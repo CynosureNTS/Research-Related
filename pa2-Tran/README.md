@@ -10,7 +10,8 @@ Last Modified: 1/4/2024
 - Type the command "python se.py"
 
 # Part 1
-![SE vs IA](./SE vs IA graph.png)
+![SE vs IA graph](https://github.com/user-attachments/assets/1df7740f-45a9-4950-b4f8-1279a386eb2f)
+
 
 Based on the graph of SE vs IA, it seems that IA runs in constant time whereas Symbolic Execution runs in at least polynomial time. SE executes in under a second for input size 537824 (14 inputs, 42 hidden nodes, and 14 outputs) and below, but the runtime quickly explodes after this point even for small increases in the number of nodes. By contrast, IA ran in under 1 thousandth of a second for all the input sizes tested (up to 100 nodes, not graphed). Clearly, IA scales much better than SE does for larger neural networks.
 

@@ -1,6 +1,6 @@
 # README for se.py
-Author: Michael Tran
-Supported Systems: Python Version 3.11.9
+Author: Michael Tran\
+Supported Systems: Python Version 3.11.9\
 Last Modified: 1/4/2024
 
 
@@ -51,7 +51,7 @@ Simulating execution with precondition:  0.1 <= i0 <= 0.3, -0.7 <= i1 <= 0.0
 {'i0': [0.1, 0.3], 'i1': [-0.7, 0.0], 'n00': [0.24000000000000002, 0.46], 'n01': [0.42000000000000004, 0.97], 'n02': [0, 0.29999999999999993], 'n03': [0.36, 0.59], 'n10': [0, 0], 'n11': [0.314, 0.835], 'n12': [0.19000000000000003, 0.6619999999999999], 'n13': [0, 0.4049999999999999], 'n20': [0, 0], 'n21': [0.0985000000000002, 1.2854999999999999], 'n22': [0.0353, 0.424], 'n23': [0, 0.7074999999999998], 'o0': [0.12505000000000005, 0.60449], 'o1': [-0.6394199999999999, 0.7760999999999998]}
 
 # Followup questions
-This assignment is not particularly difficult, but upon reflecting about the assignment I found that my understanding of SE is still a bit lacking. IA seems more straightforward by contrast.
+This assignment is not particularly difficult, but upon reflecting about the assignment I found that my understanding of SE is still a bit lacking. IA seems more straightforward by contrast.\
 My advice to other students would be to read the directions carefully. I attempted to use z3 to check the assertions from Part 2, but later realized the checks were supposed to be manual.
 
 

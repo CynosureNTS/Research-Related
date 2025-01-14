@@ -2,6 +2,7 @@
 	- Began Reading "Functional Programming in Lean" (FPL) by David T. Christiansen - https://lean-lang.org/functional_programming_in_lean/title.html
 	- Read FPL sections 1.1 - 1.3
 1/12/25 - Watched "Seminar: Introduction to the Lean 4 theorem prover and programming language by Leonardo de Moura"
-	- Began GlimpseOfLean (https://github.com/PatrickMassot/GlimpseOfLean) exercises
+	- Began GlimpseOfLean (GoL) (https://github.com/PatrickMassot/GlimpseOfLean) exercises
 1/13/25 - Completed GlimpseOfLean exercise set "01Rewriting"
 	- Read FPL section 1.4
+1/14/25 - Began GoL exercise set "02iff"

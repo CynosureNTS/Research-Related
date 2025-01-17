@@ -166,7 +166,10 @@ example {a b : ℝ}  (ha : 0 ≤ a) : b ≤ a + b := by {
 /- Let's do a variant using `add_le_add_iff_left a : a + b ≤ a + c ↔ b ≤ c` instead. -/
 
 example (a b : ℝ) (hb : 0 ≤ b) : a ≤ a + b := by {
-  sorry
+  calc
+    a = a + 0 := by ring
+    a + 0 ≤ a + b := by exact (add_le_add_iff_left a).2 hb
+
 }
 
 /-
@@ -197,7 +200,16 @@ example (a b : ℝ) : (a-b)*(a+b) = 0 ↔ a^2 = b^2 := by {
 /- You can try it yourself in this exercise. -/
 
 example (a b : ℝ) : a = b ↔ b - a = 0 := by {
-  sorry
+  constructor
+  · intro h
+    calc
+      b - a = b - b := by rw[h]
+          _ = 0 := by ring
+  · intro h
+    calc
+      a = a + 0 := by ring
+      _ = a + (b - a) := by rw[h]
+      _ = b := by ring
 }
 
 /-

@@ -124,7 +124,11 @@ Let's prove a variation
 -/
 
 example {a b : ℝ} (c : ℝ) : a + c ≤ b + c ↔ a ≤ b := by {
-  sorry
+  rw [← sub_nonneg]
+  have key: b + c - (a + c) = b - a := by
+    ring
+  rw [key]
+  rw [sub_nonneg]
 }
 
 /-

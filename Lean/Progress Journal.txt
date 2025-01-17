@@ -6,3 +6,4 @@
 1/13/25 - Completed GlimpseOfLean exercise set "01Rewriting"
 	- Read FPL section 1.4
 1/14/25 - Began GoL exercise set "02iff"
+1/17/25 - Finished GoL exercise set "02iff"

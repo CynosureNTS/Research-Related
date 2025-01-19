@@ -7,3 +7,5 @@
 	- Read FPL section 1.4
 1/14/25 - Began GoL exercise set "02iff"
 1/17/25 - Finished GoL exercise set "02iff"
+1/18/25 - Began GoL exercise set "03Forall"
+1/19/25 - Finished GoL exercise set "03Forall"

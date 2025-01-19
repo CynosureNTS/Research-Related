@@ -41,9 +41,9 @@ example (f g : ℝ → ℝ) (hf : even_fun f) (hg : even_fun g) : even_fun (f + 
   -- Our assumption on that f is even means ∀ x, f (-x) = f x
   unfold even_fun at hf
   -- and the same for g
-  unfold even_fun at hg
+  --unfold even_fun at hg
   -- We need to prove ∀ x, (f+g)(-x) = (f+g)(x)
-  unfold even_fun
+  --unfold even_fun
   -- Let x be any real number
   intro x
   -- and let's compute
@@ -51,7 +51,7 @@ example (f g : ℝ → ℝ) (hf : even_fun f) (hg : even_fun g) : even_fun (f + 
     (f + g) (-x) = f (-x) + g (-x)  := by rfl
                _ = f x + g (-x)     := by rw [hf x]
                _ = f x + g x        := by rw [hg x]
-               _ = (f + g) x        := by rfl
+               --_ = (f + g) x        := by rfl
 }
 
 
@@ -90,7 +90,10 @@ symbol you can put your mouse cursor above the symbol and wait for one second.
 -/
 
 example (f g : ℝ → ℝ) (hf : even_fun f) : even_fun (g ∘ f) := by {
-  sorry
+  intro x
+  calc
+    (g ∘ f) (-x) = g (f (-x)) := by rfl
+    _ = g (f (x)) := by rw[hf]
 }
 
 /-
@@ -214,4 +217,3 @@ You can start with specialized files in the `Topics` folder. You have choice bet
   It ends with a constructor of the product topology and its universal property
   manipulating as few open sets as possible.
 -/
-

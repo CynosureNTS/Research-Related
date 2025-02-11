@@ -11,3 +11,7 @@
 1/19/25 - Finished GoL exercise set "03Forall"
 	- Nearly completed GoL exercise set "04Exists"
 	- Began reading "Theorem Proving in Lean 4" - https://lean-lang.org/theorem_proving_in_lean4/title_page.html
+1/?/25  - Finished TPL ch 2
+1/28/25 - Progressing through the Natural Number Game
+2/?/25  - Watched some Xena Project lean tutorials on Youtube
+2/10/25 - Read FPL ch 2
